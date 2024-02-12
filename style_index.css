@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    cursor: url('cursor_star.png'), auto;
+    overflow: hidden;
+}
+
+
+img {
+    cursor: url('cursor_star.png'), auto;
+}
+
+.bg4 {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-180deg);
+}
+
+
+p{
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    position: fixed;
+    font-size: 25px; 
+    text-align: center;
+    top: 400px; 
+    left: 725px;
+    
+}
+
+marquee {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    font-size: 15px;
+    left: 0px;
+    position: absolute;
+    top:50px;
+    direction: left to right;
+}
+
+#bottom {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    font-size: 15px;
+    left: 200px;
+    position: absolute;
+    top: 800px;
+    position: relative;
+  animation: move-words 20s linear infinite;
+  margin: 0;
+}
+
+.snail {
+    left: 69px;
+    position: absolute;
+    top: 687px;
+    opacity: 100%;
+}

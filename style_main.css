@@ -1,0 +1,401 @@
+body {
+    cursor: url('cursor_star.png'), auto;
+    padding: 0;
+    margin: 0;
+}
+
+.bedascii2 {
+    position: absolute;
+    top: 1750px;
+    left: 360px; 
+    transform: rotate(-2deg);
+}
+
+.bg {
+   position: absolute;
+    z-index: -1; 
+}
+
+.beginning {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    position: absolute;
+    font-size: 20px; 
+    text-align: center;
+    top: 180px;
+}
+
+.divcenter {
+    display: flex;
+    justify-content: center;
+}
+
+marquee {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    font-size: 11px;
+    left: 0px;
+    position: absolute;
+    top:30px;
+    direction: left to right;
+    opacity: 90%;
+}
+
+
+#tagebuch { 
+    position: absolute;
+    top: 70vh;
+    right: 34vw;
+    width: 540px;
+    height: 530px;
+    background-image: url(tagebuch_cover.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+    transform: rotate(90deg);
+}
+#tagebuch:hover{
+    position: absolute;
+    top: 70vh;
+    right: 34vw;
+    background-image: url(tagebuch_offen.png);
+    width: 560px;
+    background-position: bottom;
+    transform: rotate(90deg);
+}
+
+#posterleft { 
+    position: absolute;
+    top: 183vh;
+    right: 55vw;
+    width: 400px;
+    height: 340px;
+    background-image: url(poster2.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#posterleft:hover{
+    position: absolute;
+    top: 140vh;
+    right: 75vw;
+    background-image: url(1020freitag.png);
+    width: 280px;
+    background-position: bottom;
+}
+
+#bowieposterleft { 
+    position: absolute;
+    top: 170vh;
+    right: 43vw;
+    width: 400px;
+    height: 348px;
+    background-image: url(bowieposter.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#bowieposterleft:hover{
+    position: absolute;
+    top: 140vh;
+    right: 62vw;
+    background-image: url(0108montag.png);
+    width: 400px;
+    background-position: bottom;
+}
+
+#bowieposterright { 
+    position: absolute;
+    top: 187vh;
+    right: 31vw;
+    width: 445px;
+    height: 261px;
+    background-image: url(bowieposterright.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#bowieposterright:hover{
+    position: absolute;
+    top: 180vh;
+    right: 30vw;
+    background-image: url(1105sonntag.png);
+    width: 300px;
+    background-position: bottom;
+}
+
+#smallpostersbottom { 
+    position: absolute;
+    top: 206vh;
+    right: 43vw;
+    width: 400px;
+    height: 106px;
+    background-image: url(smallposters.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#smallpostersbottom:hover{
+    position: absolute;
+    top: 206vh;
+    right: 43vw;
+    background-image: url(0121sonntag.png);
+    width: 390px;
+    background-position: bottom;
+}
+
+#smallposterstop { 
+    position: absolute;
+    top: 177vh;
+    right: 32vw;
+    width: 400px;
+    height: 106px;
+    background-image: url(smallposterstop.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#smallposterstop:hover{
+    position: absolute;
+    top: 160vh;
+    right: 20vw;
+    background-image: url(1113montag.png);
+    width: 380px;
+    background-position: bottom;
+}
+
+#plants { 
+    position: absolute;
+    top: 176vh;
+    right: 15vw;
+    width: 400px;
+    height: 406px;
+    background-image: url(plants.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#plants:hover{
+    position: absolute;
+    top: 156vh;
+    right: 15vw;
+    background-image: url(0113samstag.png);
+    width: 360px;
+    background-position: bottom;
+}
+
+#hillerface3 { 
+    position: absolute;
+    top: 140vh;
+    right: 62vw;
+    width: 400px;
+    height: 70px;
+    background-image: url(hiller_face3.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#hillerface3:hover{
+    position: absolute;
+    top: 120vh;
+    right: 62vw;
+    background-image: url(1208freitag.png);
+    width: 360px;
+    height: 300px;
+    background-position: bottom;
+}
+
+#hillerface2 { 
+    position: absolute;
+    top: 140vh;
+    right: 38vw;
+    width: 400px;
+    height: 70px;
+    background-image: url(hiller_face2.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#hillerface2:hover{
+    position: absolute;
+    top: 140vh;
+    right: 38vw;
+    background-image: url(1112sonntag.png);
+    width: 360px;
+    background-position: bottom;
+}
+
+#hillerface1 { 
+    position: absolute;
+    top: 140vh;
+    right: 18vw;
+    width: 400px;
+    height: 70px;
+    background-image: url(hiller_face1.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#hillerface1:hover{
+    position: absolute;
+    top: 140vh;
+    right: 18vw;
+    background-image: url(1201freitag.png);
+    width: 360px;
+    background-position: bottom;
+}
+
+#hillercircle { 
+    position: absolute;
+    top: 220vh;
+    right: 76vw;
+    width: 400px;
+    height: 70px;
+    background-image: url(hiller_circle.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#hillercircle:hover{
+    position: absolute;
+    top: 195vh;
+    right: 76vw;
+    background-image: url(1222freitag.png);
+     width: 320px;
+    height: 280px;
+    background-position: bottom;
+}
+
+#hillerdot { 
+    position: absolute;
+    top: 280vh;
+    right: 50vw;
+    width: 400px;
+    height: 70px;
+    background-image: url(hiller_dot.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#hillerdot:hover{
+    position: absolute;
+    top: 260vh;
+    right: 50vw;
+    background-image: url(1228donnerstag.png);
+    width: 320px;
+    height: 280px;
+    background-position: bottom;
+}
+
+#hillermacaroni { 
+    position: absolute;
+    top: 265vh;
+    right: 75vw;
+    width: 400px;
+    height: 70px;
+    background-image: url(hiller_macaroni.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#hillermacaroni:hover{
+    position: absolute;
+    top: 230vh;
+    right: 70vw;
+    background-image: url(0129montag.png);
+    width: 400px;
+    height: 390px;
+    background-position: bottom;
+}
+
+#sleepycat { 
+    position: absolute;
+    top: 220vh;
+    right: 25vw;
+    width: 400px;
+    height: 100px;
+    background-image: url(sleepycat.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#sleepycat:hover{
+    position: absolute;
+    top: 220vh;
+    right: 7vw;
+    background-image: url(1128dienstag.png);
+    width: 330px;
+    background-position: bottom;
+}
+
+#sleepydog { 
+    position: absolute;
+    top: 233vh;
+    right: 50vw;
+    width: 360px;
+    height: 140px;
+    background-image: url(sleepydog.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: bottom;
+}
+#sleepydog:hover{
+    position: absolute;
+    top: 255vh;
+    right: 40vw;
+    background-image: url(0204sonntag.png);
+    width: 280px;
+    background-position: bottom;
+}
+
+.bunny { 
+    position: absolute;
+    top: 90px;
+    right: 820px;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-3deg);
+    opacity: 90%;
+}
+
+.sun { 
+    position: absolute;
+    top: 2480px;
+    right: 60px;
+    width: 220px;
+    height: 220px;
+    opacity: 90%;
+}
+
+.end {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    position: absolute;
+    font-size: 20px; 
+    top: 2440px;
+    right: 50px;
+    position: absolute;
+}
+
+#bottom {
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff1de;
+    font-size: 15px;
+    left: 0px;
+    position: absolute;
+    top: 2660px;
+    position: relative;
+  animation: move-words 30s linear infinite;
+  margin: 0;
+}
+
+
+
